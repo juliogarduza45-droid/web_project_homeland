@@ -1,0 +1,29 @@
+.footer {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 92px;
+  margin-bottom: 24px;
+}
+.footer__author {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .footer {
+    margin-top: 64px;
+  }
+
+  .footer__author {
+    line-height: 1;
+  }
+}

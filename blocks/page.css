@@ -1,0 +1,31 @@
+.pages {
+  font-family: "Inter sprint 5", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.35;
+  width: 100%;
+  min-width: 1024px;
+  margin: 0 auto;
+}
+
+html,
+body {
+  background-color: #2a2c2f;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .pages {
+    font-size: 16px;
+    line-height: 1.3;
+    min-width: 544px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .pages {
+    font-size: 14px;
+    line-height: 1.25;
+    min-width: 320px;
+    width: 100%;
+  }
+}
