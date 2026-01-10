@@ -1,7 +1,8 @@
 .information {
   color: #fff;
-  width: 90%;
   margin-top: 92px;
+  width: 100%;
+  max-width: 984px;
 }
 .information__title {
   font-size: 54px;
@@ -24,7 +25,7 @@
   line-height: 1.42;
   text-align: end;
   margin-top: 10px;
-  width: 730px;
+  width: 80%;
   margin-bottom: 0px;
 }
 .information__ending {
@@ -39,6 +40,7 @@
   .information {
     width: 90%;
     margin-top: 90px;
+    margin-left: 10px;
   }
 
   .information__title {
@@ -48,48 +50,45 @@
   }
 
   .information__quote {
-    width: 715px;
+    width: 100%;
     margin-top: 50px;
     line-height: 1.42;
   }
 
   .information__author {
-    width: 715px;
+    width: 100%;
     margin-top: 0;
     line-height: 1.42;
   }
 
   .information__ending {
-    width: 715px;
+    width: 100%;
     line-height: 1.5;
   }
 }
 
 @media screen and (max-width: 543px) {
   .information {
-    width: 288px;
+    width: 90%;
     margin-top: 64px;
+    margin-left: 5px;
   }
 
   .information__title {
     font-size: 32px;
     line-height: 1.09;
-    width: 288px;
   }
 
   .information__quote {
-    width: 288px;
     margin-top: 40px;
     line-height: 1.25;
   }
 
   .information__author {
-    width: 288px;
     line-height: 1.42;
   }
 
   .information__ending {
-    width: 288px;
     line-height: 1.5;
   }
 }
