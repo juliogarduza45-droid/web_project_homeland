@@ -21,6 +21,9 @@ Los estilos están divididos en archivos CSS independientes para mejorar el orde
 -information.css
 -footer.css
 
+- places.css
+  -grid.css
+
 Diseño responsivo
 El sitio se adapta a:
 -Monitores
