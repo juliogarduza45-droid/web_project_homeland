@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 92px;
+  margin-top: 10px;
   margin-bottom: 24px;
 }
 .footer__author {
@@ -14,13 +14,13 @@
 
 @media screen and (max-width: 1023px) {
   .footer {
-    margin-top: 88px;
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 543px) {
   .footer {
-    margin-top: 64px;
+    margin-top: 14px;
   }
 
   .footer__author {

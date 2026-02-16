@@ -165,14 +165,6 @@
     margin-top: 0px;
   }
 
-  .places__text--margin {
-    margin-top: -20px;
-  }
-
-  .places__text--margin-cdmx {
-    margin-top: -5px;
-  }
-
   .places__text--margin-burundi {
     margin-top: 45px;
   }
@@ -191,6 +183,9 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.22; /* 22 / 18 */
+  }
+  .places__meta {
+    margin-bottom: 40px;
   }
 }
 
