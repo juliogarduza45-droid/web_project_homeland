@@ -1,0 +1,42 @@
+.photo-grid {
+  max-width: 1184px;
+  width: 100%;
+  margin: 118px auto 0 auto; /* ← esto lo centra */
+}
+
+.photo-grid__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.photo-grid__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    max-width: 720px;
+    margin: 64px auto 0 auto;
+    width: 98%;
+  }
+  .photo-grid__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .photo-grid {
+    max-width: 288px;
+    margin: 38px auto 0 auto;
+  }
+  .photo-grid__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

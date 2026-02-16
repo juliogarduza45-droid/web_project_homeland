@@ -1,6 +1,8 @@
 .content {
   display: flex;
   justify-content: center;
+  flex-direction: column; /* ← ESTO ES CLAVE */
+  align-items: center;
 }
 .content__container {
   max-width: 984px;
